@@ -1,4 +1,4 @@
-const passport = require('passport');
+const passport = require('passport'); //passport
 const nodemailer = require('nodemailer');
 
 let transporter = nodemailer.createTransport({
