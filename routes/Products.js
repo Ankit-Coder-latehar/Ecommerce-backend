@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require('express'); //express
 const { createProduct, fetchAllProducts, fetchProductById, updateProduct } = require('../controller/Product');
 const { Product } = require('../model/Product');
 
