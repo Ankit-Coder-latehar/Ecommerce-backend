@@ -1,4 +1,4 @@
-const { Product } = require('../model/Product');
+const { Product } = require('../model/Product'); //product
 
 exports.createProduct = async (req, res) => {
   // this product we have to get from API body
