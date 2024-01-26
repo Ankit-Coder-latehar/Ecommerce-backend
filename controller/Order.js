@@ -1,4 +1,4 @@
-const { Order } = require("../model/Order");
+const { Order } = require("../model/Order"); //order
 const { Product } = require("../model/Product");
 const { User } = require("../model/User");
 const { sendMail, invoiceTemplate } = require("../services/common");
