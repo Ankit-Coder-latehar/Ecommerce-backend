@@ -1,4 +1,4 @@
-const { Brand } = require('../model/Brand');
+const { Brand } = require('../model/Brand'); //function
 
 exports.fetchBrands = async (req, res) => {
   try {
