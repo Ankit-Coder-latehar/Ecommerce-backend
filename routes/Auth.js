@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require('express'); //express
 const { createUser, loginUser, checkAuth, resetPasswordRequest, resetPassword, logout } = require('../controller/Auth');
 const passport = require('passport');
 
