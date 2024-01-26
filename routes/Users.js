@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require('express'); //express
 const { fetchUserById, updateUser } = require('../controller/User');
 
 const router = express.Router();
