@@ -1,4 +1,4 @@
-const { Category } = require('../model/Category');
+const { Category } = require('../model/Category'); //function
 
 exports.fetchCategories = async (req, res) => {
   try {
